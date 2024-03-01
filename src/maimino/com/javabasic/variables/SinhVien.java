@@ -22,7 +22,7 @@ public class SinhVien {
         System.out.println("Tuoi : " + tuoi);
     }
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         SinhVien sv = new SinhVien("Nguyen Van A");
         sv.setTuoi(21);
         sv.showStudent();
